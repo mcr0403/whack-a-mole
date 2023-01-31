@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 167948400}
   - component: {fileID: 167948399}
   - component: {fileID: 167948398}
+  - component: {fileID: 167948401}
   m_Layer: 0
   m_Name: Mole 5
   m_TagString: Untagged
@@ -221,6 +222,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167948396}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &167948401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167948396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &211865548
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +246,7 @@ GameObject:
   - component: {fileID: 211865552}
   - component: {fileID: 211865551}
   - component: {fileID: 211865550}
+  - component: {fileID: 211865553}
   m_Layer: 0
   m_Name: Mole 10
   m_TagString: Untagged
@@ -319,6 +333,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211865548}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &211865553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211865548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &286784603
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +509,7 @@ GameObject:
   - component: {fileID: 591255033}
   - component: {fileID: 591255032}
   - component: {fileID: 591255031}
+  - component: {fileID: 591255034}
   m_Layer: 0
   m_Name: Mole 8
   m_TagString: Untagged
@@ -569,6 +596,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591255029}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &591255034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591255029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &614189380
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +620,7 @@ GameObject:
   - component: {fileID: 614189384}
   - component: {fileID: 614189383}
   - component: {fileID: 614189382}
+  - component: {fileID: 614189385}
   m_Layer: 0
   m_Name: Mole 6
   m_TagString: Untagged
@@ -667,6 +707,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614189380}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &614189385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614189380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &658247679
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,6 +731,7 @@ GameObject:
   - component: {fileID: 658247683}
   - component: {fileID: 658247682}
   - component: {fileID: 658247681}
+  - component: {fileID: 658247684}
   m_Layer: 0
   m_Name: Mole 9
   m_TagString: Untagged
@@ -765,6 +818,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658247679}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &658247684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658247679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +936,7 @@ GameObject:
   - component: {fileID: 708341571}
   - component: {fileID: 708341570}
   - component: {fileID: 708341569}
+  - component: {fileID: 708341572}
   m_Layer: 0
   m_Name: Mole 4
   m_TagString: Untagged
@@ -957,6 +1023,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708341567}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &708341572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708341567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &785362430
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +1047,7 @@ GameObject:
   - component: {fileID: 785362434}
   - component: {fileID: 785362433}
   - component: {fileID: 785362432}
+  - component: {fileID: 785362435}
   m_Layer: 0
   m_Name: Mole 7
   m_TagString: Untagged
@@ -1055,6 +1134,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785362430}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &785362435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785362430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &804716676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,6 +1341,7 @@ GameObject:
   - component: {fileID: 1341044295}
   - component: {fileID: 1341044294}
   - component: {fileID: 1341044293}
+  - component: {fileID: 1341044296}
   m_Layer: 0
   m_Name: Mole 2
   m_TagString: Untagged
@@ -1336,6 +1428,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341044291}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1341044296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341044291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1624302785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,6 +1452,7 @@ GameObject:
   - component: {fileID: 1624302789}
   - component: {fileID: 1624302788}
   - component: {fileID: 1624302787}
+  - component: {fileID: 1624302790}
   m_Layer: 0
   m_Name: Mole 1
   m_TagString: Untagged
@@ -1434,6 +1539,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624302785}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1624302790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624302785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2020333732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2020333733}
+  - component: {fileID: 2020333734}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Untagged
@@ -1457,7 +1575,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020333732}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0.9659258, z: -0.2588191, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1465,7 +1583,21 @@ Transform:
   - {fileID: 804716677}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: 180, z: 0}
+--- !u!114 &2020333734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020333732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a1fd4e0261e6144a49976723bf6d03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  destination: {x: 0, y: 0, z: 0}
 --- !u!1 &2091107694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1610,7 @@ GameObject:
   - component: {fileID: 2091107697}
   - component: {fileID: 2091107696}
   - component: {fileID: 2091107695}
+  - component: {fileID: 2091107699}
   m_Layer: 0
   m_Name: Mole 3
   m_TagString: Untagged
@@ -1564,6 +1697,18 @@ Transform:
   m_Father: {fileID: 315423914}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2091107699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091107694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696db6b9ec325749988c7d81ce42f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2135865703
 GameObject:
   m_ObjectHideFlags: 0
