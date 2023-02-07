@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MultiplayerGames/MultiplayerGame.unity
     guid: f8bd30df1f42de14e9c9070b52c0e402
+  - enabled: 1
+    path: Assets/Scenes/SInglePlayerGames/CardFlip.unity
+    guid: d138efc769a9d6848bbf01494e394fca
   m_configObjects: {}
