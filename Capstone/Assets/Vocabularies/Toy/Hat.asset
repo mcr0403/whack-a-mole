@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98dac1ec95271c645813309a894555eb, type: 3}
-  m_Name: Police car
+  m_Name: Hat
   m_EditorClassIdentifier: 
   lessonName: Toy
-  word: Ploice car
-  image: {fileID: 21300000, guid: 312348a47f2366742b20c68b030d68fd, type: 3}
+  word: Hat
+  image: {fileID: 21300000, guid: 431403d1bda8d2544bb51fc1a0883c0f, type: 3}

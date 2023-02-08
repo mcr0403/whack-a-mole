@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98dac1ec95271c645813309a894555eb, type: 3}
-  m_Name: Ambulance
+  m_Name: Balloon
   m_EditorClassIdentifier: 
   lessonName: Toy
-  word: Ambulance
-  image: {fileID: 21300000, guid: 0cd261a2c33003942af451170235f18a, type: 3}
+  word: Balloon
+  image: {fileID: 21300000, guid: a66ae0a00a18cba4c924d2c91c829f68, type: 3}
