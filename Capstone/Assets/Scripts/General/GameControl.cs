@@ -7,6 +7,13 @@ public class GameControl : MonoBehaviourPunCallbacks
     public GameObject lessons;
     public GameObject gameMode;
     public GameObject blocker;
+    public GameObject welcome;
+
+    public void PlayGameSelected()
+    {
+        welcome.SetActive(false);
+        gameMode.SetActive(true);
+    }
     public void SingleModeSelected()
     {
         gameMode.SetActive(false);
