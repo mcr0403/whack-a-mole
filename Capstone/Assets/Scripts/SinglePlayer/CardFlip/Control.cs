@@ -2,6 +2,8 @@ using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,36 +13,60 @@ using UnityEngine.UI;
 public class Control : MonoBehaviour
 {
     GameObject token;
-    List<int> faceIndexes = new List<int> { 0, 1, 2, 3, 4, 0, 1, 2, 3, 4};
+    List<string> faceIndexes = new List<string>() {"N-0", "N-1", "N-2", "N-3", "N-4", "I-0", "I-1", "I-2", "I-3", "I-4" };
+
     public static System.Random rdm = new System.Random();
     public int shuffleNum = 0;
+    public int index = 0;
+    public int[] id = new int[5];
+
     private float timer = 0f;
     private float temp = 0f;
-    private bool firstChoice = false;
+    private bool start = false;
     private int count = 0;
-
+    
 
     public TMP_Text score;
 
     private void Start()
     {
+        int[] randomNumbers = Enumerable.Range(0, 19).OrderBy(x => Guid.NewGuid()).Take(5).ToArray();
+
+        token.GetComponent<MainToken>().indexArr = randomNumbers;
+
         float yPosition = 2.5f;
-        float xPosition = -7.0f;
+        float xPosition = -8.0f;
+
         for (int i = 0; i < 10; i++)
         {
             int cardNum = faceIndexes.Count;
             shuffleNum = rdm.Next(0, cardNum);
-            var temp = Instantiate(token, new Vector3(xPosition, yPosition,0),
+            var temp = Instantiate(token, new Vector3(xPosition, yPosition, 0),
                 Quaternion.identity);
             temp.GetComponent<MainToken>().faceIndex = faceIndexes[shuffleNum];
             faceIndexes.Remove(faceIndexes[shuffleNum]);
 
-            xPosition = xPosition + 3.5f;
-            if ( i == 4)
+            xPosition = xPosition + 4.0f;
+            if (i == 4)
             {
-                xPosition = -7f;
-                yPosition = -1.0f;
+                xPosition = -8f;
+                yPosition = -1.5f;
             }
+        }
+    }
+
+    private void Update()
+    {
+        if (start == true)
+        {
+            timer += Time.deltaTime;
+            temp = (float)Math.Round(timer);
+            score.text = temp.ToString();
+        }
+          
+        if (count == 5)
+        {
+            start = false;
         }
 
     }
@@ -53,14 +79,12 @@ public class Control : MonoBehaviour
         
         if (FirstCard == null)
         {
-            if (!firstChoice)
-                firstChoice = true;
+            if (!start)
+                start = true;
             FirstCard = card;
-            Debug.Log("set first card");
         }
         else
         {  
-            Debug.Log("set second card");
             SecondCard = card;
             StartCoroutine(CheckMatch());
         }
@@ -68,8 +92,7 @@ public class Control : MonoBehaviour
 
     public IEnumerator CheckMatch()
     {
-        Debug.Log("test");
-        if (FirstCard.faceIndex == SecondCard.faceIndex)
+        if (FirstCard.index == SecondCard.index)
         {
             count++;
 
@@ -92,22 +115,6 @@ public class Control : MonoBehaviour
             cardsUp = true;
         }
         return cardsUp;
-    }
-
-    private void Update()
-    {
-        if (firstChoice == true)
-        {
-            timer += Time.deltaTime;
-            temp = (float)Math.Round(timer);
-            score.text = temp.ToString();
-        }
-
-        if (count == 5)
-        {
-            firstChoice = false;
-        }
-
     }
 
     public void Reset()
